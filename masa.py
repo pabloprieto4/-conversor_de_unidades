@@ -23,5 +23,13 @@ def Toneladas_a_Gramos(t):
     g = t * 1000000
     return g
 
+    print("Ejemplos de conversión de temperatura:")
+    print("25°C a Fahrenheit:",kilogramos_a_gramos(25))
+    print("98.6°F a Celsius:",kilogramos_a_toneladas(98.6))
+    print("0°C a Kelvin:",gramos_a_kilogramos(0))
+    print("273.15K a Celsius:",gramos_a_toneladas(273.15))
+    print("-40°F a Kelvin:",toneladas_a_kilogramos(-40))
+    print("100K a Fahrenheit:",toneladas_a_gramos(100))
+
 
 
